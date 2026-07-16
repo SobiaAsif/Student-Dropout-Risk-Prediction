@@ -10,16 +10,22 @@ st.set_page_config(
 
 st.title("🎓 Student Dropout Risk Prediction")
 
-st.sidebar.header("About")
+st.sidebar.header("📋 Project Information")
 
 st.sidebar.info(
     """
-    This application predicts whether a student is at risk of dropping out
-    based on academic, lifestyle, and psychological factors.
+    **Student Dropout Risk Prediction**
 
-    Model:
+    This web application predicts the likelihood of a student dropping out using Machine Learning.
+
+    **Model**
     - Random Forest Classifier
-    - Scikit-learn Pipeline
+
+    **Libraries**
+    - Scikit-learn
+    - Pandas
+    - Streamlit
+    - Joblib
     """
 )
 
@@ -257,17 +263,39 @@ if st.button("Predict Dropout Risk"):
     else:
         st.success("✅ Low Dropout Risk")
 
-    st.subheader("Prediction Confidence")
+    st.subheader("Prediction Probabilities")
+
+    st.write(f"🟢 Low Risk: {probability[0]:.2%}")
+    st.write(f"🔴 High Risk: {probability[1]:.2%}")
 
     confidence = max(probability)
 
     st.progress(float(confidence))
 
-    st.write(f"Confidence: {confidence:.2%}")
+    st.write(f"Model Confidence: {confidence:.2%}")
 
     st.subheader("Input Summary")
-
     st.dataframe(input_data)
+
+with st.expander("ℹ️ About the Model"):
+
+    st.write("""
+    This application predicts whether a student is at risk of dropping out
+    based on academic, lifestyle, and psychological factors.
+
+    **Machine Learning Algorithm**
+    - Random Forest Classifier
+
+    **Preprocessing**
+    - Missing values handled using SimpleImputer
+    - Categorical features encoded using OneHotEncoder
+    - Numerical and categorical preprocessing managed with ColumnTransformer
+    - Entire workflow combined using a Scikit-learn Pipeline
+
+    **Deployment**
+    - Built with Streamlit
+    - Model serialized using Joblib
+    """)
 
 st.markdown("---")
 st.caption("Developed by Sobia Asif | Machine Learning Portfolio Project")

@@ -114,5 +114,6 @@ print(classification_report(y_test, y_pred))
 
 # Save Pipeline
 joblib.dump(pipeline, "models/student_dropout_pipeline.pkl")
+model = pipeline.named_steps["model"]
 
 print("\nPipeline saved successfully!")
