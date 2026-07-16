@@ -1,3 +1,7 @@
+# 🎓 Student Dropout Risk Prediction
+
+🌐 **Live Demo:** https://student-dropout-risk-prediction-aohbcmk3ka9mjbjkbl9y9f.streamlit.app/
+
 ## 📸 Application Screenshots
 
 ### Home Page
