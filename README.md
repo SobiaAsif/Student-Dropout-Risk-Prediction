@@ -2,13 +2,39 @@
 
 🌐 **Live Demo:** https://student-dropout-risk-prediction-aohbcmk3ka9mjbjkbl9y9f.streamlit.app/
 
+## ✨ Features
+
+- Predicts student dropout risk
+- Random Forest Classifier
+- Scikit-learn Pipeline
+- Automatic preprocessing
+- Interactive Streamlit interface
+- Confidence score for predictions
+- Professional deployment
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Joblib
+
+## 🚀 Future Improvements
+
+- Feature importance visualization
+- Model comparison
+- Explainable AI (SHAP)
+- Better analytics dashboard
+- Docker support
+
 ## 📸 Application Screenshots
 
 ### Home Page
 
 ![Home](screenshots/home.png)
 <img width="1354" height="647" alt="pic1" src="https://github.com/user-attachments/assets/d7e36860-fd7e-46d9-9482-9e8bff374a95" />
-
 
 ---
 
