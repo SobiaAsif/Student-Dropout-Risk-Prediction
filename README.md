@@ -20,3 +20,4 @@
 ### About the Model
 
 ![About](screenshots/about.png)
+<img width="1349" height="645" alt="pic3" src="https://github.com/user-attachments/assets/4ea385ce-0810-4eeb-965c-156cf7bddefc" />
