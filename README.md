@@ -7,7 +7,8 @@
 ### Home Page
 
 ![Home](screenshots/home.png)
-![Home](<screenshots/home 1.PNG>)
+<img width="1354" height="647" alt="pic1" src="https://github.com/user-attachments/assets/d7e36860-fd7e-46d9-9482-9e8bff374a95" />
+
 
 ---
 
@@ -19,5 +20,4 @@
 
 ### About the Model
 
-![About](screenshots/about.png)
 <img width="1349" height="645" alt="pic3" src="https://github.com/user-attachments/assets/4ea385ce-0810-4eeb-965c-156cf7bddefc" />
